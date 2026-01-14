@@ -164,7 +164,7 @@ a:focus {
   border: 5px solid #8e32c6;
   padding: 25px 19px;
   margin: 0 auto;
-  max-width: 1110px;
+  /* max-width: 1110px; */
 }
 
 .item-benefit {
@@ -197,8 +197,8 @@ a:focus {
   font-size: 36px;
   margin: 0 auto;
   letter-spacing: 0;
-  padding-bottom: 4px;
-  padding-top: 10px;
+  margin-bottom: 4px;
+  /* padding-top: 10px; */
 }
 
 /* reviews */
@@ -211,7 +211,6 @@ a:focus {
   padding-top: 24px;
   padding-bottom: 114px;
   border-bottom: 2px solid #ffffff;
-  padding-left: 18px;
 }
 
 .title-review {
@@ -239,9 +238,10 @@ a:focus {
     #cc5ec2 100%
   );
   border-radius: 15px;
-  width: 255px;
+  /* width: 255px; */
   padding-top: 49px;
   padding-left: 18px; /* padding-right: 14px; */
+   padding-bottom: 29px;
 }
 
 .item-review:nth-child(2) {
@@ -289,8 +289,8 @@ a:focus {
   display: flex;
   align-items: center;
   gap: 5px;
-  padding-left: 13px;
-  padding-bottom: 29px;
+  /* padding-left: 13px;
+  padding-bottom: 29px; */
 
 }
 
@@ -388,6 +388,8 @@ a:focus {
 
 .footer {
   background: #021635;
+  padding-top: 45px;
+  padding-bottom: 32px;
 }
 
 .footer-contact {
@@ -395,7 +397,6 @@ a:focus {
   justify-content: center;
   flex-direction: column;
   border-bottom: 1px solid #9b9b9b;
-  padding-top: 45px;
 }
 
 .question-footer {
